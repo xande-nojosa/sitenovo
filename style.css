@@ -1,0 +1,71 @@
+body{
+    margin: 20;
+}
+
+#menu ul{
+    margin: 0;
+    background-color: #003399
+    ;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 0px 40px;
+    display: inline-block;
+    font-size: x-large;
+    font-variant: small-caps;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    color: black;
+}
+
+#linguagens{
+    width: 1250px;
+    height: 600px;
+    background-image: url(imagens/giphy.gif);
+    font-size: x-large;
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 12px 12px 12px blue,
+             2px 2px 1px blue;
+  }
+
+  .logo{
+    display: block;
+    margin-left: 0px;
+    height: 70px;
+    width: 60px; 
+    margin-right: 200px;
+  }
+
+  #ucb{
+    font-size: xxx-large;
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+
+}
+.photo{
+    margin-left: 0px;
+    height: 250px;
+    width: 500px; 
+
+}
+.pg_logo{
+    margin-top: 100px;
+    margin-left: 0px;
+    height: 100px;
+    width: 122px; 
+    margin-right: 0px;
+}
