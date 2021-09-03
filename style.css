@@ -14,11 +14,11 @@ body{
 }
 
 #menu ul li a{
-    padding: 0px 40px;
+    padding: 0px 50px;
     display: inline-block;
     font-size: x-large;
     font-variant: small-caps;
-    font-weight: 900;
+    font-weight: 1000;
     color: white;
     text-decoration: none;
 }
@@ -26,6 +26,8 @@ body{
 #menu ul li a:hover{
     color: black;
 }
+
+
 
 #linguagens{
     width: 1250px;
@@ -68,4 +70,14 @@ body{
     height: 100px;
     width: 122px; 
     margin-right: 0px;
+}
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
 }
