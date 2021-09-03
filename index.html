@@ -5,6 +5,7 @@
         <title>Universidade Católica de Brasília</title>
         <link rel="shortcut icon" href="imagens/ucb.png">
         <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
     </head>
 
 
@@ -29,7 +30,7 @@
                 <li><a href = "https://ucb.catolica.edu.br/portal/conheca/biblioteca/inicio/">Biblioteca</a></li>
                 
             </ul>
-
+            
 
         <div id="linguagens">
             <table>
@@ -52,7 +53,25 @@
                     
                     <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.838053286137!2d-48.03232538549552!3d-15.865106728923916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d99eddf2aeb%3A0x1f93c6652deda3dc!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1628220386327!5m2!1spt-BR!2sbr" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </td>
-                    <td><img src="imagens/ucb.png" width="250" height="250"></td>
+                    <td>
+                        <div>
+                            <form action="https://ava.catolica.edu.br/d2l/login">
+                                <div>
+                                    <label for="nome">Nome:</label>
+                                    <input type="text" id="nome" name="usuario_nome" />
+                                </div>
+                                <div>
+                                    <label for="email">Senha:</label>
+                                    <input type="senha" id="senha" name="usuario_senha" />
+                                </div>
+                            
+                                <div class="button">
+                                    <button type="submit">Login</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </td>
                     <td> <img src="imagens/tagg.jpg" class="photo"></td> 
                     
                 </tr>
